@@ -1,0 +1,158 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #81697f;
+    color: #15354a;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para a barra de navegação */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #838383;
+    z-index: 1;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #15354a;
+    font-weight: bold;
+}
+
+/* Estilos para os títulos */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    background-color: #838383; /* Cor de fundo cinza */
+    color: #15354a; /* Cor do texto branco */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Borda arredondada */
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto 20px; /* Centraliza horizontalmente e adiciona espaçamento inferior */
+    font-size: 24px; /* Tamanho do texto */
+    display: inline-block; /* Torna o título um bloco inline para conter o quadrado */
+}
+
+/* Estilos para as imagens */
+figure {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Estilos para links */
+a {
+    color: #15354a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #000000;
+}
+
+/* Estilos para as seções */
+section {
+    background-color: #838383;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+aside {
+    border: 2px solid #15354a; /* Adiciona uma borda sólida com a cor desejada */
+    padding: 10px; /* Adiciona um espaçamento interno ao aside */
+    width: 33%;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+/* Estilos para listas e itens de lista */
+/* Estilos para a seção do índice */
+.indice-section {
+    text-align: center; /* Centraliza o texto e os pontos sinalizadores */
+    background-color: #838383; /* Cor de fundo cinza */
+    padding: 10px; /* Espaçamento interno */
+    width: 33%; /* Largura da seção */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+.indice-section ul {
+    list-style-type: square; /* Estilo para a lista */
+    padding: 0; /* Remove o espaçamento padrão da lista */
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Estilos para as figcaption */
+figcaption {
+    font-style: italic;
+    font-size: 14px;
+    color: #81697f;
+}
+
+/* Estilos para os IDs específicos */
+#habilidades {
+    text-align: center;
+    color: #15354a;
+}
+
+#familia {
+    text-align: center;
+    color: #15354a;
+}
+
+#inimigos {
+    text-align: center;
+    color: #15354a;
+}
+
+#filmes {
+    text-align: center;
+    color: #15354a;
+}
+
+#PrimeiraHQ {
+    text-align: center;
+    color: #15354a;
+}
+
+#trailer {
+    text-align: center;
+    color: #15354a;
+}
+
+footer {
+    background-color: #838383;
+    padding: 1px;
+    text-align: center;
+}
+
+.footer-text {
+    color: #15354a;
+    font-style: italic;
+}
+

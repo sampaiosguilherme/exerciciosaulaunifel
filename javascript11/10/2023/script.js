@@ -1,16 +1,15 @@
-let angulo1 = 60;
-let angulo2 = 70;
-let angulo3 = 50;
+let numero1 = 10;
+let numero2 = 20;
+let numero3 = 15;
 
-if (angulo1 <= 0 || angulo2 <= 0 || angulo3 <= 0) {
-    console.log("Erro: Os angulos devem ser positivos.");
+let maior;
+
+if (numero1 >= numero2 && numero1 >= numero3) {
+    maior = numero1;
+} else if (numero2 >= numero1 && numero2 >= numero3) {
+    maior = numero2;
 } else {
-
-    if (angulo1 + angulo2 + angulo3 === 180) {
-        console.log("É um triangulo valido.");
-
-    } else {
-        console.log("Não é um triangulo valido.");
-
-    }
+    maior = numero3;
 }
+    
+console.log("O maior numero é:", maior);

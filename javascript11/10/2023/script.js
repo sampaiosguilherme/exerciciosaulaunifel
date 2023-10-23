@@ -1,15 +1,14 @@
-let numero1 = 10;
-let numero2 = 20;
-let numero3 = 15;
+const valor = [10, 8, 50, 63, 41, 71, 2]
 
-let maior;
+const soma = (array) => {
+    let total = 0
 
-if (numero1 >= numero2 && numero1 >= numero3) {
-    maior = numero1;
-} else if (numero2 >= numero1 && numero2 >= numero3) {
-    maior = numero2;
-} else {
-    maior = numero3;
+    for (let index = 0; index < array.length; index += 1) {
+        total += array[index]
+    }
+
+    return total
 }
+
+console.log(soma(valor))
     
-console.log("O maior numero é:", maior);

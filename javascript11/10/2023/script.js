@@ -29,3 +29,12 @@ price: 20,
       }
     }
 }
+
+const customerInfo = (fullOrder) => {
+    // Adicione abaixo as informações necessárias.
+  }
+  console.log(customerInfo(order));
+  const orderModifier = (fullOrder) => {
+     // Adicione abaixo as informações necessárias.
+  }
+  console.log(orderModifier(order));

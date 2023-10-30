@@ -1,40 +1,12 @@
-const order = {
-    name: 'Rafael Andrade',
-    phoneNumber: '11-98763-1416',
-    address: {
-      street: 'Rua das Flores',
-      number: '389',
-      apartment: '701',
-    },
-    order: {
-      pizza: {
-        marguerita: {
-          amount: 1,
-          price: 25,
-        },
-        pepperoni: {
-          amount: 1,
-price: 20,
-        },
-      },
-      drinks: {
-        coke: {
-          type: 'Coca-Cola Zero',
-          price: 10,
-          amount: 1,
-        },
-      },
-      delivery: {
-        deliveryPerson: 'Ana Silveira',
-      }
+const numbers = [10, 4, 7, 11, 68, 102]
+
+let maiorNumero = 0
+
+for (let index = 0; index <numbers.length; index +=1) {
+    if (maiorNumero < numbers [index]) {
+    maiorNumero = numbers[index]
     }
+
 }
 
-const customerInfo = (fullOrder) => {
-    // Adicione abaixo as informações necessárias.
-  }
-  console.log(customerInfo(order));
-  const orderModifier = (fullOrder) => {
-     // Adicione abaixo as informações necessárias.
-  }
-  console.log(orderModifier(order));
+console.log(maiorNumero)

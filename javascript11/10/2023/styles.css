@@ -1,110 +1,106 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #333;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  h1 {
-    color: #333;
-    text-align: center;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"] {
-    padding: 8px;
-    font-size: 14px;
-    width: 50%;
-    box-sizing: border-box;
-  }
-  
-  button {
-    padding: 8px 12px;
-    font-size: 14px;
-    cursor: pointer;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-  }
-  
-  #filmes {
-    margin-top: 20px;
-    list-style: none; /* Removendo os marcadores de lista */
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  
-  .card {
-    width: 25%;
-    box-sizing: border-box;
-    overflow: hidden;
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  p {
-    margin-bottom: 5px;
-  }
-  
-  img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-
-  /* Outros estilos */
-
-#filtrar-input {
-    border-radius: 10px;
-    padding: 8px;
-    /* Adicione mais estilos conforme necessário */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000; /* Fundo preto */
+  color: #fff; /* Texto branco */
 }
 
-/* Outros estilos */
-footer {
-    background-color: #333; /* Cor de fundo do rodapé */
-    color: #fff; /* Cor do texto do rodapé */
-    padding: 10px; /* Preenchimento interno do rodapé */
-    text-align: center; /* Alinhamento do texto ao centro */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #fff; /* Título branco */
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  text-align: center; /* Centraliza o texto do label */
+}
+
+input[type="text"] {
+  padding: 8px;
+  font-size: 14px;
+  width: 50%;
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #ff0000; /* Botão vermelho */
+  color: #fff; /* Texto do botão branco */
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto; /* Centraliza horizontalmente */
+  margin-bottom: 10px; /* Adiciona espaço entre o botão e o próximo elemento */
+}
+
+#filmes {
+  margin-top: 20px;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 25%;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 
 /* Outros estilos */
 
 #botaoBuscar {
-    /* Outros estilos */
-    transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #botaoBuscar:hover {
-    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
-    color: #fff; /* Cor do texto ao passar o mouse */
+  background-color: #990000; /* Mudança de cor ao passar o mouse */
+  color: #fff;
 }
 
 #filmes img {
-    /* Outros estilos */
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 #filmes img:hover {
-    transform: scale(1.1); /* Aumenta a escala ao passar o mouse */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona sombra ao passar o mouse */
+  transform: scale(1.1);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* Outros estilos */
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

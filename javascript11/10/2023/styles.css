@@ -96,6 +96,21 @@ img {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* No seu arquivo styles.css ou onde você estiver definindo seus estilos */
+
+/* Estilo para o contêiner da saudação */
+#saudacao-container {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+/* Estilo para a saudação */
+#saudacao {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; /* Cor desejada */
+}
+
 /* Outros estilos */
 
 footer {
